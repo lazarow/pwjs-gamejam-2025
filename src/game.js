@@ -19,4 +19,7 @@ export default new Phaser.Game({
             //debug: true,
         },
     },
+    fps: {
+        target: 60,
+    },
 });
