@@ -10,4 +10,13 @@ export default new Phaser.Game({
         mode: Phaser.Scale.FIT,
     },
     scene: [GameScene],
+    physics: {
+        default: "matter",
+        matter: {
+            gravity: {
+                y: 2,
+            },
+            //debug: true,
+        },
+    },
 });
